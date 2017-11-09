@@ -2,8 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid Background="#FFC53838">
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="374,47,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button Content="Кнопка " HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="113" Height="62" Click="Button_Click_1"/>
 
     </Grid>
 </Window>

@@ -29,5 +29,10 @@ namespace WpfApplication1
         {
             MessageBox.Show("edit");
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello");
+        }
     }
 }

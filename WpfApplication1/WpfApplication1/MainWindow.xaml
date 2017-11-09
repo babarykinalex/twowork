@@ -5,6 +5,7 @@
     <Grid Background="#FFC53838">
         <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="374,47,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
         <Button Content="Кнопка " HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="113" Height="62" Click="Button_Click_1"/>
+        <Button Content="23" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="95,223,0,0" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

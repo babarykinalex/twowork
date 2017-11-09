@@ -43,7 +43,7 @@ namespace WpfApplication1
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            textbox1.Text = " ";
+            textbox1.Text = "0";
             textbox1.Focus();
             a = 0; 
             b = 0;
@@ -51,12 +51,26 @@ namespace WpfApplication1
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "1";
+            }
+            else
+            {
+                textbox1.Text = "1";
+            }
         }
 
         private void button2_click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "2";
+            }
+            else
+            {
+                textbox1.Text = "2";
+            }
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)

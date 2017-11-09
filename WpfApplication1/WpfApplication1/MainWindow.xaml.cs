@@ -43,7 +43,7 @@ namespace WpfApplication1
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            textbox1.Text = "0";
+            textbox1.Text = " ";
             textbox1.Focus();
             a = 0; 
             b = 0;

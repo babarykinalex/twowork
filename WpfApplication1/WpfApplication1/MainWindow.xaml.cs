@@ -63,7 +63,14 @@ namespace WpfApplication1
 
         private void button2_click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "2";
+            }
+            else
+            {
+                textbox1.Text = "2";
+            }
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)

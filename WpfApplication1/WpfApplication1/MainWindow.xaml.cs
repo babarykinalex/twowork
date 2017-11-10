@@ -76,37 +76,86 @@ namespace WpfApplication1
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "3";
+            }
+            else
+            {
+                textbox1.Text = "3";
+            }
         }
 
         private void Button4_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "4";
+            }
+            else
+            {
+                textbox1.Text = "4";
+            }
         }
 
         private void Button5_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "5";
+            }
+            else
+            {
+                textbox1.Text = "5";
+            }
         }
 
         private void Button6_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "6";
+            }
+            else
+            {
+                textbox1.Text = "6";
+            }   
         }
 
         private void button7_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "7";
+            }
+            else
+            {
+                textbox1.Text = "7";
+            }
         }
 
         private void button8_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "8";
+            }
+            else
+            {
+                textbox1.Text = "8";
+            }
         }
 
         private void button9_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "9";
+            }
+            else
+            {
+                textbox1.Text = "9";
+            }
         }
 
         private void button10_Click(object sender, RoutedEventArgs e)
@@ -203,12 +252,18 @@ namespace WpfApplication1
 
         private void button25_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "0";
+            }
+            else
+            {
+                textbox1.Text = "0";
+            }
         }
 
         private void button26_Click(object sender, RoutedEventArgs e)
         {
-
         }
 
         private void button27_Click(object sender, RoutedEventArgs e)

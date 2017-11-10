@@ -165,7 +165,7 @@ namespace WpfApplication1
 
         private void button23_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBox.Show("23");
         }
 
         private void button24_Click(object sender, RoutedEventArgs e)

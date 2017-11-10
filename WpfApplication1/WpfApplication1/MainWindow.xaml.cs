@@ -401,7 +401,8 @@ namespace WpfApplication1
 
   private void button39_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Pow(10, a));
   }
 
   private void button41_Click(object sender, RoutedEventArgs e)

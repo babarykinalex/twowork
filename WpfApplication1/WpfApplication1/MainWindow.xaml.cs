@@ -51,12 +51,26 @@ namespace WpfApplication1
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "1";
+            }
+            else
+            {
+                textbox1.Text = "1";
+            }
         }
 
         private void button2_click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "2";
+            }
+            else
+            {
+                textbox1.Text = "2";
+            }
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)
@@ -133,16 +147,16 @@ namespace WpfApplication1
 
         private void button17_Click(object sender, RoutedEventArgs e)
         {
-           
+            if (textbox1.Text.Length != 0)
+            {
+                textbox1.Text = textbox1.Text.Substring(0, textbox1.Text.Length - 1);
+            }
         }
 
      
         private void button18_Click(object sender, RoutedEventArgs e)
         {
-            textbox1.Text = Convert.ToString(Convert.ToInt32 (textbox1.Text) * (-1));
-          
-          //  x = Convert.ToDouble(1.0 / Convert.ToDouble(a));
-           // textbox1.Text = Convert.ToString(x);
+            textbox1.Text = Convert.ToString(Convert.ToInt32 (textbox1.Text) * (-1));                 
         }
 
         private void button19_Click(object sender, RoutedEventArgs e)

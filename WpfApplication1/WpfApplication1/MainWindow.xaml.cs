@@ -43,6 +43,7 @@ namespace WpfApplication1
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
+            windows1.Width = 430;
             textbox1.Text = "0";
             textbox1.Focus();
             a = 0; 
@@ -254,6 +255,25 @@ namespace WpfApplication1
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("23");
+        }
+
+        private void MenuItem_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (windows1.Width == 430)
+            {
+                windows1.Width = 600;
+                button40.Content = "<";
+            }
+            else
+            {
+                   windows1.Width = 430;
+                   button40.Content = ">";
+            }
         }
     }
 }

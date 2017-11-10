@@ -13,34 +13,34 @@
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="button25" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="5,430,0,0" Click="button25_Click" Height="40" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button26" Content="," HorizontalAlignment="Left" Margin="174,430,0,0" VerticalAlignment="Top" Width="79" Click="button26_Click" Height="40" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button27" Content="+" HorizontalAlignment="Left" Margin="258,430,0,0" VerticalAlignment="Top" Width="79" Click="button27_Click" Height="40" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button28" Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,362,0,0" Height="108" Click="button28_Click" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,362,0,0" Click="button1_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button24" Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,362,0,0" Click="button24_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button18" Content="±" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,207,0,0" Click="button18_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button22" Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,309,0,0" Click="button22_Click" Height="41" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="button20" Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,259,0,0" Click="button20_Click" Height="43" FontSize="24" FontWeight="Bold"/>
-        <Button x:Name="button13" Content="M+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,157,0,0" Click="button13_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button12" Content="MS" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,157,0,0" Click="button12_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button17" Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="173,207,0,0" Click="button17_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,259,0,0" Click="button9_Click" Height="43" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,309,0,0" Click="Button6_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,362,0,0" Click="Button3_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button11" Content="MR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,157,0,0" Click="button11_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button16" Content="CE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,207,0,0" Click="button16_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,259,0,0" Click="button8_Click" Height="43" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,309,0,0" Click="Button5_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,362,0,0" Click="button2_click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button10" Content="MC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,157,0,0" Click="button10_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button15" Content="←" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,207,0,0" Click="button15_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,259,0,0" Click="button7_Click" Height="43" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,309,0,0" Click="Button4_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button23" Content="1/x" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,309,0,0" Click="button23_Click" Height="41" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button21" Content="%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,259,0,0" Click="button21_Click" Height="43" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button14" Content="M-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,157,0,0" Click="button14_Click" Height="42" FontSize="18" FontWeight="Bold"/>
-        <Button x:Name="button" Content="√" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,207,0,0" Click="button19_Click" Height="41" FontSize="18" FontWeight="Bold"/>
+        <Button x:Name="button25" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="163" Margin="5,430,0,0" Click="button25_Click" Height="40" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button26" Content="," HorizontalAlignment="Left" Margin="174,430,0,0" VerticalAlignment="Top" Width="79" Click="button26_Click" Height="40" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button27" Content="+" HorizontalAlignment="Left" Margin="258,430,0,0" VerticalAlignment="Top" Width="79" Click="button27_Click" Height="40" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button28" Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,362,0,0" Height="108" Click="button28_Click" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,362,0,0" Click="button1_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button24" Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,362,0,0" Click="button24_Click" Height="42" FontSize="22" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button18" Content="±" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,207,0,0" Click="button18_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vijaya"/>
+        <Button x:Name="button22" Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,309,0,0" Click="button22_Click" Height="41" FontSize="24" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button20" Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,259,0,0" Click="button20_Click" Height="43" FontSize="24" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button13" Content="M+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="258,157,0,0" Click="button13_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button12" Content="MS" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,157,0,0" Click="button12_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button17" Content="C" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="173,207,0,0" Click="button17_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vijaya"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,259,0,0" Click="button9_Click" Height="43" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,309,0,0" Click="Button6_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="174,362,0,0" Click="Button3_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button11" Content="MR" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,157,0,0" Click="button11_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button16" Content="CE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,207,0,0" Click="button16_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,259,0,0" Click="button8_Click" Height="43" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,309,0,0" Click="Button5_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="89,362,0,0" Click="button2_click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button10" Content="MC" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,157,0,0" Click="button10_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button15" Content="←" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,207,0,0" Click="button15_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,259,0,0" Click="button7_Click" Height="43" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="5,309,0,0" Click="Button4_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button23" Content="1/x" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,309,0,0" Click="button23_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button21" Content="%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,259,0,0" Click="button21_Click" Height="43" FontSize="18" FontWeight="Bold" FontFamily="Vijaya"/>
+        <Button x:Name="button14" Content="M-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,157,0,0" Click="button14_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Vivaldi"/>
+        <Button x:Name="button" Content="√" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="356,207,0,0" Click="button19_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Vijaya"/>
         <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="120" Margin="5,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="353" FontSize="72" TextAlignment="Right"/>
         <Menu HorizontalAlignment="Left" Height="22" Margin="10,9,0,0" VerticalAlignment="Top" Width="399" Visibility="Hidden">
             <MenuItem x:Name="menuitem1" Header="Вид" Click="MenuItem_Click">

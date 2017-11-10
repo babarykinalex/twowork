@@ -23,6 +23,8 @@ namespace WpfApplication1
         int a = 0;
         int b = 0;
         int z = 0;
+        double x = 0;
+        double memory = 0;
 
         public MainWindow()
         {
@@ -94,27 +96,29 @@ namespace WpfApplication1
 
         private void button10_Click(object sender, RoutedEventArgs e)
         {
-
+             memory = 0;
+             textbox1.Text = "0";
         }
 
         private void button11_Click(object sender, RoutedEventArgs e)
         {
-
+            textbox1.Text = Convert.ToString(memory);
         }
 
         private void button12_Click(object sender, RoutedEventArgs e)
         {
-
+            memory = double.Parse(textbox1.Text);
         }
 
         private void button13_Click(object sender, RoutedEventArgs e)
         {
-
+            memory+=double.Parse(textbox1.Text);
+           
         }
 
         private void button14_Click(object sender, RoutedEventArgs e)
         {
-
+            memory -= double.Parse(textbox1.Text);
         }
 
         private void button15_Click(object sender, RoutedEventArgs e)
@@ -124,18 +128,21 @@ namespace WpfApplication1
 
         private void button16_Click(object sender, RoutedEventArgs e)
         {
-
+            textbox1.Text = "0";
         }
 
         private void button17_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
      
         private void button18_Click(object sender, RoutedEventArgs e)
         {
-       
+            textbox1.Text = Convert.ToString(Convert.ToInt32 (textbox1.Text) * (-1));
+          
+          //  x = Convert.ToDouble(1.0 / Convert.ToDouble(a));
+           // textbox1.Text = Convert.ToString(x);
         }
 
         private void button19_Click(object sender, RoutedEventArgs e)
@@ -153,7 +160,9 @@ namespace WpfApplication1
 
         private void button21_Click(object sender, RoutedEventArgs e)
         {
-
+            a = Convert.ToInt32(textbox1.Text);
+            z = 21;
+            textbox1.Text = "0";
         }
 
         private void button22_Click(object sender, RoutedEventArgs e)
@@ -165,7 +174,9 @@ namespace WpfApplication1
 
         private void button23_Click(object sender, RoutedEventArgs e)
         {
-
+            a = Convert.ToInt32(textbox1.Text);
+            x = Convert.ToDouble(1.0 / Convert.ToDouble(a));
+            textbox1.Text = Convert.ToString(x);
         }
 
         private void button24_Click(object sender, RoutedEventArgs e)
@@ -207,7 +218,14 @@ namespace WpfApplication1
                     textbox1.Text = Convert.ToString(a - b);
                     z = 0;
                 }
-                if(z==22)
+                if (z == 21)
+                {
+                    textbox1.Text = Convert.ToString((a * b)/100);
+                    z = 0;
+                }
+                
+                if (z == 22)
+
                 {
                     textbox1.Text = Convert.ToString(a * b);
                     z = 0;
@@ -215,10 +233,10 @@ namespace WpfApplication1
                 if (z == 20)
                 {
                     textbox1.Text = Convert.ToString(a / b);
-                    z = 0;
+                    z = 0;                             
                 }
             }
-        }
+        }     
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("23");

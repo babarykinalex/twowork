@@ -25,19 +25,11 @@ namespace WpfApplication1
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("edit");
+            MessageBox.Show("Hello");
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("hello");
-        }
 
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("qwertf");
-        }
     }
 }

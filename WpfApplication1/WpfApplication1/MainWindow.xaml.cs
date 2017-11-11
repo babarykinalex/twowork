@@ -215,8 +215,8 @@ namespace WpfApplication1
 
         private void button19_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToDouble(textbox1.Text);
-            textbox1.Text = Convert.ToString(Math.Sqrt(a));
+           // a = Convert.ToDouble(textbox1.Text);
+            //textbox1.Text = Convert.ToString(Math.Sqrt(a));
         }
 
         private void button20_Click(object sender, RoutedEventArgs e)
@@ -343,5 +343,112 @@ namespace WpfApplication1
                    button40.Content = ">";
             }
         }
+
+        private void button29_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Sin(a));
+        }
+
+        private void button30_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Cos(a));
+        }
+
+        private void button31_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Tan(a));
+        }
+
+        private void button32_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+      
+        private void button33_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Log(a));
+        }
+  private void button34_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            x = Convert.ToDouble(Convert.ToDouble((a)));
+            textbox1.Text = Convert.ToString(x);
+        }
+
+  private void button35_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button36_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button37_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button38_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button39_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button41_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button42_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button44_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button43_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button45_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button41_Click_1(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button46_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button47_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+
+  
+
+ 
+       
     }
 }

@@ -37,3 +37,16 @@ C:\Users\Admin\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\Wp
 C:\Users\Admin\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
 C:\Users\Admin\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\Admin\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache

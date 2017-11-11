@@ -20,9 +20,9 @@ namespace WpfApplication1
     /// </summary>
     public partial class MainWindow : Window
     {
-        int a = 0;
-        int b = 0;
-        int z = 0;
+        Double a = 0;
+        Double b = 0;
+        Double z = 0;
         double x = 0;
         double memory = 0;
 
@@ -76,37 +76,86 @@ namespace WpfApplication1
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "3";
+            }
+            else
+            {
+                textbox1.Text = "3";
+            }
         }
 
         private void Button4_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "4";
+            }
+            else
+            {
+                textbox1.Text = "4";
+            }
         }
 
         private void Button5_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "5";
+            }
+            else
+            {
+                textbox1.Text = "5";
+            }
         }
 
         private void Button6_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "6";
+            }
+            else
+            {
+                textbox1.Text = "6";
+            }   
         }
 
         private void button7_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "7";
+            }
+            else
+            {
+                textbox1.Text = "7";
+            }
         }
 
         private void button8_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "8";
+            }
+            else
+            {
+                textbox1.Text = "8";
+            }
         }
 
         private void button9_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "9";
+            }
+            else
+            {
+                textbox1.Text = "9";
+            }
         }
 
         private void button10_Click(object sender, RoutedEventArgs e)
@@ -138,8 +187,12 @@ namespace WpfApplication1
 
         private void button15_Click(object sender, RoutedEventArgs e)
         {
-
+                if (textbox1.Text.Length != 0)
+            {
+                textbox1.Text = textbox1.Text.Substring(0, textbox1.Text.Length - 1);
+            }
         }
+        
 
         private void button16_Click(object sender, RoutedEventArgs e)
         {
@@ -148,10 +201,10 @@ namespace WpfApplication1
 
         private void button17_Click(object sender, RoutedEventArgs e)
         {
-            if (textbox1.Text.Length != 0)
-            {
-                textbox1.Text = textbox1.Text.Substring(0, textbox1.Text.Length - 1);
-            }
+            textbox1.Text = "0";
+            a = 0;
+            b = 0;
+            z = 0;
         }
 
      
@@ -162,13 +215,13 @@ namespace WpfApplication1
 
         private void button19_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToInt32(textbox1.Text);
+            a = Convert.ToDouble(textbox1.Text);
             textbox1.Text = Convert.ToString(Math.Sqrt(a));
         }
 
         private void button20_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToInt32(textbox1.Text);
+            a = Convert.ToDouble(textbox1.Text);
             z = 20;
             textbox1.Text = "0";
         }
@@ -182,7 +235,7 @@ namespace WpfApplication1
 
         private void button22_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToInt32(textbox1.Text);
+            a = Convert.ToDouble(textbox1.Text);
             z = 22;
             textbox1.Text = "0";
         }
@@ -196,31 +249,46 @@ namespace WpfApplication1
 
         private void button24_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToInt32(textbox1.Text);
+            a = Convert.ToDouble(textbox1.Text);
             z = 24;
             textbox1.Text = "0";
         }
 
         private void button25_Click(object sender, RoutedEventArgs e)
         {
-
+            if (textbox1.Text != "0")
+            {
+                textbox1.Text += "0";
+            }
+            else
+            {
+                textbox1.Text = "0";
+            }
         }
 
         private void button26_Click(object sender, RoutedEventArgs e)
         {
-
+             if (textbox1.Text != "0")
+            {
+                textbox1.Text += ",";
+            }
+            else
+            {
+                textbox1.Text = ",";
+            }
+        
         }
 
         private void button27_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToInt32(textbox1.Text);
+            a = Convert.ToDouble(textbox1.Text);
             z = 27;
             textbox1.Text = "0";
         }
 
         private void button28_Click(object sender, RoutedEventArgs e)
         {
-            b = Convert.ToInt32(textbox1.Text);
+            b = Convert.ToDouble(textbox1.Text);
             if (z != 0)
             {
                 if (z == 27)

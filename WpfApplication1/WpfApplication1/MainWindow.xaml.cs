@@ -24,6 +24,7 @@ namespace WpfApplication1
         Double b = 0;
         Double z = 0;
         double x = 0;
+        Double c = 0;
         double memory = 0;
 
         public MainWindow()
@@ -215,8 +216,8 @@ namespace WpfApplication1
 
         private void button19_Click(object sender, RoutedEventArgs e)
         {
-           // a = Convert.ToDouble(textbox1.Text);
-            //textbox1.Text = Convert.ToString(Math.Sqrt(a));
+           a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Sqrt(a));
         }
 
         private void button20_Click(object sender, RoutedEventArgs e)
@@ -318,6 +319,12 @@ namespace WpfApplication1
                     textbox1.Text = Convert.ToString(a / b);
                     z = 0;                             
                 }
+                if(z==35)
+                {
+                    a = Convert.ToDouble(textbox1.Text);
+                    textbox1.Text = Convert.ToString(Math.Pow(a, a));
+                }
+              
             }
         }     
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -364,35 +371,39 @@ namespace WpfApplication1
 
         private void button32_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
-
       
         private void button33_Click(object sender, RoutedEventArgs e)
         {
             a = Convert.ToDouble(textbox1.Text);
-            textbox1.Text = Convert.ToString(Math.Log(a));
+            textbox1.Text = Convert.ToString(Math.Log10(a));
         }
   private void button34_Click(object sender, RoutedEventArgs e)
         {
             a = Convert.ToDouble(textbox1.Text);
-            x = Convert.ToDouble(Convert.ToDouble((a)));
-            textbox1.Text = Convert.ToString(x);
+            textbox1.Text = Convert.ToString(Math.Pow(a, 2));
         }
 
   private void button35_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      z = 35;
+      textbox1.Text = "0";
+     
   }
 
   private void button36_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Pow(a, 3));
   }
 
   private void button37_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      z = 37;
+      textbox1.Text = "0";
   }
 
   private void button38_Click(object sender, RoutedEventArgs e)
@@ -402,7 +413,8 @@ namespace WpfApplication1
 
   private void button39_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Pow(10, a));
   }
 
   private void button41_Click(object sender, RoutedEventArgs e)
@@ -412,38 +424,49 @@ namespace WpfApplication1
 
   private void button42_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Sinh(a));
   }
 
   private void button44_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Tanh(a));
   }
 
   private void button43_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Cosh(a));
   }
 
   private void button45_Click(object sender, RoutedEventArgs e)
   {
-
+      textbox1.Text = Convert.ToString(3.141592653589793238462643);
   }
 
   private void button41_Click_1(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Log(a));
   }
 
   private void button46_Click(object sender, RoutedEventArgs e)
   {
-
+    a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Exp(a));
   }
 
   private void button47_Click(object sender, RoutedEventArgs e)
   {
-
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Abs(a));
   }
+
+  private void textbox1_TextChanged(object sender, TextChangedEventArgs e)
+  {
+
+   }
 
 
   

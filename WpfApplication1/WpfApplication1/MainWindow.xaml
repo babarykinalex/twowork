@@ -41,7 +41,7 @@
         <Button x:Name="button21" Content="%" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="355,259,0,0" Click="button21_Click" Height="43" FontSize="18" FontWeight="Bold" FontFamily="Times New Roman"/>
         <Button x:Name="button14" Content="M-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="355,157,0,0" Click="button14_Click" Height="42" FontSize="18" FontWeight="Bold" FontFamily="Times New Roman"/>
         <Button x:Name="button" Content="√" HorizontalAlignment="Left" VerticalAlignment="Top" Width="53" Margin="355,207,0,0" Click="button19_Click" Height="41" FontSize="18" FontWeight="Bold" FontFamily="Times New Roman"/>
-        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="115" Margin="4,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="353" FontSize="72" TextAlignment="Right" FontFamily="Times New Roman"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="115" Margin="4,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="353" FontSize="72" TextAlignment="Right" FontFamily="Times New Roman" TextChanged="textbox1_TextChanged"/>
         <Menu HorizontalAlignment="Left" Height="22" Margin="10,9,0,0" VerticalAlignment="Top" Width="399" Visibility="Hidden">
             <MenuItem x:Name="menuitem1" Header="Вид" Click="MenuItem_Click">
                 <MenuItem x:Name="menuitem2" Header="Обычный" HorizontalAlignment="Left" Width="145" Click="MenuItem_Click_1"/>

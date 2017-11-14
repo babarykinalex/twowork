@@ -42,7 +42,6 @@ C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\Wpf
 C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
 C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
 C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
-C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
 C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
 C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
 C:\Users\user\Source\Repos\twowork\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs

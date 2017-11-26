@@ -24,7 +24,10 @@ namespace WpfApplication1
         Double b = 0;
         Double z = 0;
         double x = 0;
+        Double c = 0;
         double memory = 0;
+        int f = 72;
+        bool art = false;
 
         public MainWindow()
         {
@@ -52,6 +55,11 @@ namespace WpfApplication1
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "1";
@@ -64,6 +72,11 @@ namespace WpfApplication1
 
         private void button2_click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "2";
@@ -76,6 +89,11 @@ namespace WpfApplication1
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "3";
@@ -88,6 +106,11 @@ namespace WpfApplication1
 
         private void Button4_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "4";
@@ -100,6 +123,11 @@ namespace WpfApplication1
 
         private void Button5_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "5";
@@ -112,6 +140,11 @@ namespace WpfApplication1
 
         private void Button6_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "6";
@@ -124,6 +157,11 @@ namespace WpfApplication1
 
         private void button7_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "7";
@@ -136,6 +174,11 @@ namespace WpfApplication1
 
         private void button8_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "8";
@@ -148,6 +191,11 @@ namespace WpfApplication1
 
         private void button9_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "9";
@@ -215,7 +263,7 @@ namespace WpfApplication1
 
         private void button19_Click(object sender, RoutedEventArgs e)
         {
-            a = Convert.ToDouble(textbox1.Text);
+           a = Convert.ToDouble(textbox1.Text);
             textbox1.Text = Convert.ToString(Math.Sqrt(a));
         }
 
@@ -256,6 +304,11 @@ namespace WpfApplication1
 
         private void button25_Click(object sender, RoutedEventArgs e)
         {
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            }
             if (textbox1.Text != "0")
             {
                 textbox1.Text += "0";
@@ -268,7 +321,12 @@ namespace WpfApplication1
 
         private void button26_Click(object sender, RoutedEventArgs e)
         {
-             if (textbox1.Text != "0")
+            if (art)
+            {
+                textbox1.Text = "0";
+                art = false;
+            } 
+            if (textbox1.Text != "0")
             {
                 textbox1.Text += ",";
             }
@@ -288,6 +346,7 @@ namespace WpfApplication1
 
         private void button28_Click(object sender, RoutedEventArgs e)
         {
+            art = true;
             b = Convert.ToDouble(textbox1.Text);
             if (z != 0)
             {
@@ -318,6 +377,12 @@ namespace WpfApplication1
                     textbox1.Text = Convert.ToString(a / b);
                     z = 0;                             
                 }
+                if(z==35)
+                {
+                    a = Convert.ToDouble(textbox1.Text);
+                    textbox1.Text = Convert.ToString(Math.Pow(a, a));
+                }
+              
             }
         }     
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -343,5 +408,164 @@ namespace WpfApplication1
                    button40.Content = ">";
             }
         }
+
+        private void button29_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Sin(a));
+        }
+
+        private void button30_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Cos(a));
+        }
+
+        private void button31_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Tan(a));
+        }
+
+        private void button32_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+      
+        private void button33_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Log10(a));
+        }
+  private void button34_Click(object sender, RoutedEventArgs e)
+        {
+            a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Pow(a, 2));
+        }
+
+  private void button35_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      z = 35;
+      textbox1.Text = "0";
+     
+  }
+
+  private void button36_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Pow(a, 3));
+  }
+
+  private void button37_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      z = 37;
+      textbox1.Text = "0";
+  }
+
+  private void button38_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button39_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Pow(10, a));
+  }
+
+  private void button41_Click(object sender, RoutedEventArgs e)
+  {
+
+  }
+
+  private void button42_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Sinh(a));
+  }
+
+  private void button44_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Tanh(a));
+  }
+
+  private void button43_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Cosh(a));
+  }
+
+  private void button45_Click(object sender, RoutedEventArgs e)
+  {
+      textbox1.Text = Convert.ToString(3.141592653589793238462643);
+  }
+
+  private void button41_Click_1(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Log(a));
+  }
+
+  private void button46_Click(object sender, RoutedEventArgs e)
+  {
+    a = Convert.ToDouble(textbox1.Text);
+            textbox1.Text = Convert.ToString(Math.Exp(a));
+  }
+
+  private void button47_Click(object sender, RoutedEventArgs e)
+  {
+      a = Convert.ToDouble(textbox1.Text);
+      textbox1.Text = Convert.ToString(Math.Abs(a));
+  }
+
+  private void textbox1_TextChanged(object sender, TextChangedEventArgs e)
+  {
+
+   }
+
+  private void textbox1_KeyDown(object sender, KeyEventArgs e)
+  {
+
+      //textbox1.Text = Convert.ToString ((int)e.Key);
+      if (art)
+      {
+          textbox1.Text = "0";
+          art = false;
+      }
+
+      if (!(((int)e.Key >= 34) && ((int)e.Key <= 43)) && !(((int)e.Key >= 74) && ((int)e.Key <= 83)) && !((int)e.Key == 88))
+          {
+              if ((int)e.Key == 89) button20.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+              if ((int)e.Key == 84) button22.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+              if ((int)e.Key == 87) button24.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+              if ((int)e.Key == 85) button27.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+              if ((int)e.Key == 6) button28.RaiseEvent(new RoutedEventArgs(Button.ClickEvent));
+              e.Handled = true;
+          }
+        else
+         {
+            if (textbox1.Text == "0")
+             textbox1.Clear();
+         }
+          if (textbox1.Text.Length > 8)
+          {
+              if (textbox1.FontSize == f)
+                  textbox1.FontSize = textbox1.FontSize / 2;
+          }
+            else
+          {
+              textbox1.FontSize = f;
+          }
+
+  }
+
+
+  
+
+ 
+       
     }
 }

@@ -24,7 +24,6 @@ namespace WpfApplication1
         Double b = 0;
         Double z = 0;
         double x = 0;
-        Double c = 0;
         double memory = 0;
 
         public MainWindow()
@@ -321,11 +320,13 @@ namespace WpfApplication1
                 }
                 if(z==35)
                 {
-                    a = Convert.ToDouble(textbox1.Text);
-                    textbox1.Text = Convert.ToString(Math.Pow(a, a));
+                    textbox1.Text = Convert.ToString(Math.Pow(a, b));
                 }
-              
-            }
+                if(z==37)
+                {
+                    textbox1.Text = Convert.ToString(Math.Pow(a,(1.0 / b)));
+                }
+          }
         }     
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
@@ -371,7 +372,12 @@ namespace WpfApplication1
 
         private void button32_Click(object sender, RoutedEventArgs e)
         {
-           
+            a = 1;
+            for (int i = 1; i <= Convert.ToInt32(textbox1.Text); i++)
+            {
+                a = a * i;
+            }
+            textbox1.Text = Convert.ToString(a);
         }
       
         private void button33_Click(object sender, RoutedEventArgs e)
@@ -408,8 +414,10 @@ namespace WpfApplication1
 
   private void button38_Click(object sender, RoutedEventArgs e)
   {
-
-  }
+           a = Convert.ToDouble(textbox1.Text);
+           textbox1.Text = Convert.ToString(Math.Pow(a, (1.0 / 3)));
+      }
+  
 
   private void button39_Click(object sender, RoutedEventArgs e)
   {
